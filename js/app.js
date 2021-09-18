@@ -21,16 +21,16 @@ function submitForm(e) {
   
     sessionStorage.setItem("name", name);
   
-    location.href = "quiz.html";
+    location.href = "index2.html";
   }
 
 
 function goToHome(){
-    location.href = "start.html";
+    location.href = "index.html";
 }
 
 function tryAgainQuiz(){
-    location.href="quiz.html";
+    location.href="index2.html";
 }
 
 
